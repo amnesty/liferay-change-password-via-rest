@@ -1,0 +1,7 @@
+*.class
+*.war
+*.iml
+**/target/*
+**/bin/*
+**/classes/*
+.idea/*

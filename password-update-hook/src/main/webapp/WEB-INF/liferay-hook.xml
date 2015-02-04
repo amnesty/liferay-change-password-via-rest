@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hook PUBLIC "-//Liferay//DTD Hook 6.1.0//EN" "http://www.liferay.com/dtd/liferay-hook_6_1_0.dtd">
+
+<hook>
+
+    <struts-action>
+        <struts-action-path>/my_account/edit_user</struts-action-path>
+        <struts-action-impl>com.mimacom.ai.portlet.myaccount.action.EditUserAction</struts-action-impl>
+    </struts-action>
+
+    <struts-action>
+        <struts-action-path>/users_admin/edit_user</struts-action-path>
+        <struts-action-impl>com.mimacom.ai.portlet.usersadmin.action.EditUserAction</struts-action-impl>
+    </struts-action>
+
+</hook>
